@@ -21,7 +21,23 @@
     "url": "https://github.com/beepboophq/node-slack-bot/issues"
   },
   "homepage": "https://github.com/beepboophq/node-slack-bot#readme",
+  "engines": {
+    "node": "*"
+  },
   "dependencies": {
     "botkit": "0.0.5"
-  }
+    "request": "~2.60.0",
+    "underscore": "^1.7.0",
+    "node-slackbot": "0.0.6",
+    "jira": "0.9.2",
+    "q": "1.1.2"
+  },
+  "devDependencies": {},
+  "bin": {
+    "bot": "bin/bot.js"
+  },
+  "keywords": [
+    "slack",
+    "jira"
+  ]
 }
